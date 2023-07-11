@@ -11,7 +11,8 @@ app = Flask(__name__)
 
 # --------------------------------------------------------
 dbpaths = {
-    "example-db": "./mini-db"
+    "example-db": "./mini-db",
+    "traverse": "/scratch/gpfs/lsawade/DBSUMMIT"
 }
 
 
