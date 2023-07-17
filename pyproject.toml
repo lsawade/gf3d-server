@@ -14,7 +14,7 @@ dependencies = [
 dynamic = ["version"]
 
 [project.urls]
-homepage = "https://github.com/lsawade/gf3d-server"
+homepage = "https://github.com/lsawade/gf3d_server"
 
 [build-system]
 requires = ["setuptools", "wheel", "setuptools_scm"]
