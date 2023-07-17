@@ -1,5 +1,5 @@
 [project]
-name = "gf3d-server"
+name = "gf3d_server"
 description = "Server interface to the GF database"
 readme = "README.md"
 authors = [
@@ -7,8 +7,9 @@ authors = [
 ]
 license = { text = "BSD 3-Clause License" }
 dependencies = [
-    "gf3d"
+    "gf3d",
     "flask",
+    "waitress"
 ]
 dynamic = ["version"]
 
@@ -19,7 +20,7 @@ homepage = "https://github.com/lsawade/gf3d-server"
 requires = ["setuptools", "wheel", "setuptools_scm"]
 build-backend = 'setuptools.build_meta'
 
-[tool.setuptools]
-zip_safe = false
+[tool.setuptools_scm]
+write_to = "src/gf3d_server/version.py"
 
 [tool.setuptools.packages.find]
