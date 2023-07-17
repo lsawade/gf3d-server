@@ -12,8 +12,10 @@ app = Flask(__name__)
 # --------------------------------------------------------
 dbpaths = {
     "example-db": "./mini-db",
-    "traverse": "/scratch/gpfs/lsawade/DBSUMMIT"
+    "princeton-traverse": "/scratch/gpfs/lsawade/DBSUMMIT",
+    "princeton": "/home/lsawade/traverse.scratch/DBSUMMIT"
 }
+# --------------------------------------------------------
 
 
 @app.route('/get-station-availability', methods=["GET"])

@@ -1,0 +1,25 @@
+[project]
+name = "gf3d-server"
+description = "Server interface to the GF database"
+readme = "README.md"
+authors = [
+    { name = "Lucas Sawade", email = "lsawade@princeton.edu" }
+]
+license = { text = "BSD 3-Clause License" }
+dependencies = [
+    "gf3d"
+    "flask",
+]
+dynamic = ["version"]
+
+[project.urls]
+homepage = "https://github.com/lsawade/gf3d-server"
+
+[build-system]
+requires = ["setuptools", "wheel", "setuptools_scm"]
+build-backend = 'setuptools.build_meta'
+
+[tool.setuptools]
+zip_safe = false
+
+[tool.setuptools.packages.find]
