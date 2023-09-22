@@ -2,3 +2,4 @@ __pycache__
 *.h5
 *.egg-info
 build
+version.py
