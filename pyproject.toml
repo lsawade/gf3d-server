@@ -1,5 +1,5 @@
 [project]
-name = "gf3d_server"
+name = "gf3dserver"
 description = "Server interface to the GF database"
 readme = "README.md"
 authors = [
@@ -14,13 +14,14 @@ dependencies = [
 dynamic = ["version"]
 
 [project.urls]
-homepage = "https://github.com/lsawade/gf3d_server"
+homepage = "https://github.com/lsawade/gf3dserver"
 
 [build-system]
 requires = ["setuptools", "wheel", "setuptools_scm"]
 build-backend = 'setuptools.build_meta'
 
 [tool.setuptools_scm]
-write_to = "src/gf3d_server/version.py"
+write_to = "src/gf3dserver/version.py"
 
 [tool.setuptools.packages.find]
+where = ["src"]
